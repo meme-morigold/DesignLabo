@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <title>Design Labo</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="site-title"><a href="#">Design Labo</a></h1>
+    <div class="nav-wrapper">
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#service">Service</a></li>
+          <li class="nav-item"><a href="#news">News</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="burger-btn">
+      <span class="bars">
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </span>
+    </button>
+  </header>
+  <main>
+    <!-- fv -->
+    <div class="fv">
+      <p class="main-copy">Design Labo</p>
+    </div>
+    <!-- about -->
+    <section class="section-wrapper" id="about">
+      <h2 class="section-title">About</h2>
+      <h3 class="about-title">人とモノをつなげる<br>洗練されたデザインをクリエイト</h3>
+      <p class="about-content">ウェブサイトはビジネスにおいて欠かせない存在となってきました。コンテンツを作り、情報を発進していくことで、強力なツールとなります。また、ウェブサイトとひとことに言っても様々です。そこで私たちはヒアリングを行った上で、クライアントに本当に価値のあるサイトをご提案させて頂きます。</p>
+    </section>
+    <!-- service -->
+    <section class="section-wrapper" id="service">
+        <h2 class="section-title">Service</h2>
+        <div class="inner-wrapper">
+          <div class="text-service-wrapper">
+            <h3 class="service-title">サイト制作及び導入サポート</h3>
+            <p class="service-content">ビジュアルデザイン、テキストライティング、ウェブプログラミングだけではなく、リリース時もサポートさせて頂きます。</p>
+          </div>
+          <div class="img-service-wrapper">
+            <img src="img/web.jpg" alt="webサイトが表示されたPC">
+          </div>
+        </div>
+        <div class="inner-wrapper reverse">
+          <div class="text-service-wrapper">
+            <h3 class="service-title">コンテンツマーケティング</h3>
+            <p class="service-content">近年ではコンテンツを使ったマーケティング手法が効果的とされています。一緒にユーザーが求めている情報を考え、施策を提案します。</p>
+          </div>
+          <div class="img-service-wrapper">
+            <img src="img/contents.jpg" alt="コンテンツ提案が書いてある紙">
+          </div>
+        </div>
+    </section>
+    <!-- news -->
+    <section class="section-wrapper" id="news">
+			<div class="section-inner">
+				<h2 class="section-title">News</h2>
+				<ul class="card-list">
+					<li class="card-item">
+						<a href="#!">
+							<div class="card-img">
+								<img src="img/flower.jpg" alt="白い背景と花">
+							</div>
+							<p class="card-text">美容エステサロン会社S様の新規サイトを公開しました。幅広い女性をターゲットに女性らしいデザインと、ブログコンテンツも用意しています。</p>
+						</a>
+					</li>
+					<li class="card-item">
+						<a href="#!">
+							<div class="card-img">
+								<img src="img/organic.jpg" alt="オーガニックフード">
+							</div>
+							<p class="card-text">食品販売会社D様の新規サイトを公開しました。今回のサイトはオーガニックの雰囲気を全面的に出したデザインになっています。</p>
+						</a>
+					</li>
+					<li class="card-item">
+						<a href="#!">
+							<div class="card-img">
+								<img src="img/card.jpg" alt="黒い背景にあるカード">
+							</div>
+							<p class="card-text">金融機関会社B様の新規サイトを公開しました。今回のサイトは白と黒を基調にしたフォーマルなデザインになっています。</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+    <!-- contact -->
+    <section class="sedtion-wrapper" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <form action="" class="form">
+        <div class="form-part">
+          <label for="input-name">担当者名</label>
+          <input type="text" id="input-subject">
+        </div>
+        <div class="form-part">
+          <label for="input-tel">電話番号</label>
+          <input type="text" id="input-subject">
+        </div>
+        <div class="form-part">
+          <label for="input-mail">メールアドレス</label>
+          <input type="text" id="input-subject">
+        </div>
+        <div class="form-part">
+          <label for="detail">お問い合わせ内容</label>
+          <textarea name="" type="text" id="detail" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-send">
+          <input type="submit" value="送信" class="form-btn">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>©︎design labo all rights reserved</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
